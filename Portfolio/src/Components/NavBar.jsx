@@ -20,7 +20,7 @@ function NavBar() {
       </ul>
 
       <div onClick={handleNav} className='block md:hidden mr-6'>
-        {nav ? <AiOutlineCloseCircle className='cursor-pointer' size={20} /> : <AiOutlineMenu className='cursor-pointer' size={20} />}
+        {nav ? <AiOutlineCloseCircle className='cursor-pointer fixed top-[40px] right-6' size={20} /> : <AiOutlineMenu className='cursor-pointer' size={20} />}
       </div>
 
       <div className={nav ? `z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out  duration-500` : `fixed left-[-100%]`}>
