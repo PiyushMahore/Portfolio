@@ -16,7 +16,6 @@ function NavBar() {
         <li className='p-5'><Link className='cursor-pointer hover:bg-gradient-to-r hover:from-orange-400 hover:to-pink-600  hover:scale-125 duration-300 hover:px-3 hover:py-1 rounded-lg' to='home' smooth duration={500}>Home</Link></li>
         <li className='p-5'><Link className='cursor-pointer hover:bg-gradient-to-r hover:from-orange-400 hover:to-pink-600  hover:scale-125 duration-300 hover:px-3 hover:py-1 rounded-lg' to='about' smooth duration={600}>About</Link></li>
         <li className='p-5'><Link className='cursor-pointer hover:bg-gradient-to-r hover:from-orange-400 hover:to-pink-600  hover:scale-125 duration-300 hover:px-3 hover:py-1 rounded-lg' to='projects' smooth duration={700}>Projects</Link></li>
-        <li className='p-5'><Link className='cursor-pointer hover:bg-gradient-to-r hover:from-orange-400 hover:to-pink-600  hover:scale-125 duration-300 hover:px-3 hover:py-1 rounded-lg' to='contact' smooth duration={800}>Contact Me</Link></li>
       </ul>
 
       <div onClick={handleNav} className='block md:hidden mr-6'>
@@ -29,7 +28,6 @@ function NavBar() {
           <li className='p-2'><Link className='cursor-pointer' to='home' smooth duration={500}>Home</Link></li>
           <li className='p-2'><Link className='cursor-pointer' to='about' smooth duration={500}>About</Link></li>
           <li className='p-2'><Link className='cursor-pointer' to='projects' smooth duration={500}>Projects</Link></li>
-          <li className='p-2'><Link className='cursor-pointer' to='contact' smooth duration={500}>Contact Me</Link></li>
         </ul>
       </div>
     </div>

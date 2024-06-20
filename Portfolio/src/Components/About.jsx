@@ -12,7 +12,7 @@ function About() {
               About Me
             </h2>
             <p className='text-base lg:text-lg'>
-            Hello there! I'm Piyush Mahore, a frontend developer with a passion for crafting beautiful and intuitive digital experiences. With a blend of creativity and technical prowess, I specialize in turning ideas into engaging user interfaces that leave a lasting impression.
+            Hello there! I'm Piyush , a frontend developer with a passion for crafting beautiful and intuitive digital experiences. With a blend of creativity and technical prowess, I specialize in turning ideas into engaging user interfaces that leave a lasting impression.
             </p>
           </div>
         </div>

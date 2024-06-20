@@ -1,8 +1,7 @@
 import React from 'react'
 import Project01 from '../assets/Project1.png'
 import Project02 from '../assets/Project2.png'
-import Project03 from '../assets/Project3.jpeg'
-import Project04 from '../assets/Project4.png'
+import Project03 from '../assets/Project3.png'
 
 function Projects() {
   return (
@@ -22,8 +21,8 @@ function Projects() {
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wide'></span>
                     <div className='pt-8 text-center'>
-                        <a href=''>
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
+                        <a href='https://exclusive-bookstore.netlify.app'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Book Store</button>
                         </a>
                     </div>
                 </div>
@@ -34,8 +33,8 @@ function Projects() {
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wide'></span>
                     <div className='pt-8 text-center'>
-                        <a href=''>
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
+                        <a href='https://exclusive-shopzee-ecommerce.netlify.app'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>E-Commerce</button>
                         </a>
                     </div>
                 </div>
@@ -46,20 +45,8 @@ function Projects() {
                 <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wide'></span>
                     <div className='pt-8 text-center'>
-                        <a href=''>
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto h-[200px] bg-cover relative'>
-                <img src={Project04} alt=''/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl font-bold text-white tracking-wide'></span>
-                    <div className='pt-8 text-center'>
-                        <a href=''>
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
+                        <a href='https://expens-tracke.netlify.app'>
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Expense Tracker</button>
                         </a>
                     </div>
                 </div>

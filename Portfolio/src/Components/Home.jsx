@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import {TypeAnimation} from 'react-type-animation'
 import img from '../assets/img.jpg'
 
@@ -30,8 +31,8 @@ function Home() {
                 My name is Piyush Mahore and I am passionate about coding
             </p>
             <div className='my-8'>
-                <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white'>Download CV</a>
-                <a href='/' className='px-6 py-3 w-full rounded-xl border border-gray-400 bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none'>Contact</a>
+                <a href='https://drive.google.com/file/d/1rbjwMMgc8Y0qk2rALQbarYVUBiwc8ZVS/view' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white'>Download CV</a>
+                <Link smooth duration={800} to='contact' className='cursor-pointer px-6 py-3 w-full rounded-xl border border-gray-400 bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none'>Contact</Link>
             </div>
         </div>
     </div>
